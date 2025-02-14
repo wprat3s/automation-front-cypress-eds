@@ -8,13 +8,11 @@ Projeto de criação e configuração de automação de testes com a ferramenta 
 - Pode ser utilizando em Linux, Mac e Windows, suporta navegadores de desktop, dispositivos móveis, remotos e na nuvem.
 
 ### Instalação
- 
-Primeiro vamos instalar o Node.
-
-A instalação do Node no Windows é relativamente bem simples, basta acessar o site oficial e executar download do instalador:
-```sh
 <img width="226" alt="image" src="https://github.com/user-attachments/assets/eaee904f-d74d-4418-85da-579e2a4a3a9e" />
 
+Primeiro vamos instalar o Node.
+A instalação do Node no Windows é relativamente bem simples, basta acessar o site oficial e executar download do instalador:
+```sh
 $ https://nodejs.org/en/download
 ```
 Vamos utilizar a versão Current do Node é 19.9.0. 
