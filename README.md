@@ -18,7 +18,7 @@ $ https://nodejs.org/en/download
 Vamos utilizar a versão Current do Node é 19.9.0. 
 Execute a instalação, seguindo as instruções na tela e pronto.
 ### ATENÇÃO
-Para instalação do Node, selecionar a opção de adicionado ao PATH do Windows. Com isto, teremos as variavéis de ambiente já configuradas.
+Na instalação do Node, selecionar(Marcar) a opção de adicionado ao PATH do Windows. Com isto, NÂO teremos que configurar as variavéis de ambiente.
 
 ### Após a instalação do NodeJs
 Vamos verificar a versão do Node.js digitando no seu terminal o seguinte comando:
