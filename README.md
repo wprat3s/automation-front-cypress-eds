@@ -1,7 +1,7 @@
-<img width="257" alt="image" src="https://github.com/user-attachments/assets/437e1f1e-dbbc-4474-9c89-07de3c2c96e1"/><h1 align="center">Testes Automatizados com Cypress</h1>
+<img width="257" alt="image" src="https://github.com/user-attachments/assets/437e1f1e-dbbc-4474-9c89-07de3c2c96e1"/>
+<h1>Testes Automatizados com Cypress</h1>
 
-# automation-front-cypress-eds
-Projeto de criação e configuração de automação de testes com a ferramenta Cypress.
+Projeto de automação de testes com a ferramenta Cypress.
 
 - Cypress é uma ferramenta NodeJs para automatização de testes em JavaScript e Typescript.
   

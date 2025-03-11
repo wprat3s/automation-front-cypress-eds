@@ -1,0 +1,16 @@
+{
+  "name": "automation-front-cypress-eds",
+  "version": "1.0.0",
+  "description": "<img width=\"257\" alt=\"image\" src=\"https://github.com/user-attachments/assets/437e1f1e-dbbc-4474-9c89-07de3c2c96e1\"/>\r <h1>Testes Automatizados com Cypress</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":"cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}
