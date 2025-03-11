@@ -4,4 +4,4 @@
 # Recommended: VisualStudio.gitignore
 
 # Ignore model files that are auto-generated
-	node_modules/
+node_modules/
