@@ -1,16 +1,23 @@
 // Classe responsável por mapear os objetos da página de login
+/// <reference types="cypress"/>
 
 
 class login {
-   element = {
-
-    userEmail: () => cy.get("#=email"),
-    userPassword: () => cy.get("#=password"),
-    submitButton: () => cy.get
-   }
-
-    // Método para preencher o campo de e-mail
-    inputEmail(email) {
-        this.element.userEmail().type(email)
+   
+         get #userEmail() {return cy.get("#=email")}
+         get #userPassword() {return cy.get("#=password")}
+         get #submitButton() {return cy.get('[data-testid="entrar"]')}
+       
+       
+     
+         // Método para preencher o campo de e-mail
+         inputEmail(email,password) 
+         {
+             this.#userEmail().type(email),
+             this.#userPassword().type(password),
+             this.#submitButton().click();
+        
+         }  
    
 }
+module.exports = new login();
