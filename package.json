@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rodrigoarriel56/automation-front-cypress-eds#readme",
   "devDependencies": {
-    "cypress": "^14.2.0"
+    "cypress": "^14.2.0",
+    "cypress-file-upload": "^5.0.8"
   }
 }

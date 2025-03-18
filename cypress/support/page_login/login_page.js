@@ -5,8 +5,8 @@
 
 class login {
    
-         get #userEmail() {return cy.get("#=email")}
-         get #userPassword() {return cy.get("#=password")}
+         get #userEmail() {return cy.get("#email")}
+         get #userPassword() {return cy.get("#password")}
          get #submitButton() {return cy.get('[data-testid="entrar"]')}
        
        

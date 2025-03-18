@@ -1,16 +1,13 @@
-
-// Classe responsável por mapear os objetos da página de login
+// Classe responsável por mapear os objetos da página de cadastro
 /// <reference types="cypress"/>
 
 
 class cadastro {
     
         get #userNome() {return cy.get("#nome")}
-        get #userEmail() {return cy.get("#=email")}
-        get #userPassword() {return cy.get("#=password")}
+        get #userEmail() {return cy.get("#email")}
+        get #userPassword() {return cy.get("#password")}
         get #submitButton() {return cy.get('[data-testid="cadastrar"]')}
-    
-        
 
         // Método para preencher o campo de e-mail
         inputEmail(nome,email,password) 
