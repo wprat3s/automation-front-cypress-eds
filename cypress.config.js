@@ -26,5 +26,6 @@ module.exports = defineConfig({
     baseUrl: 'https://front.serverest.dev',
     chromeWebSecurity: false, 
     experimentalModifyObstructiveThirdPartyCode: true, // Tenta ignorar bloqueios de segurança
+    screenshotOnRunFailure: true
   }
 });
