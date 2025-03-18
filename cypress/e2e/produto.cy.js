@@ -25,11 +25,25 @@ describe('Teste de Cadastro de Produto', () => {
         cy.get('[data-testid="email"]').type("williamteste1@teste.com");
         cy.get('[data-testid="senha"]').type('@Teste123');
         cy.get('[data-testid="entrar"]').click();
-        cy.get('[data-testid="cadastrar-produtos"]').click();
+ 
     });
 
-    it('Deve cadastrar um produto com sucesso', () => {
+   /* it('Deve cadastrar um produto com sucesso', () => {
         cy.contains('Cadastrar Produtos').click();
         produto.cadastrarProduto('Produto Teste', '50', 'Descrição do produto', '10', 'imagem_teste.jpg');
-    });
+    });*/
+
+    it ('Deve executar o login com sucesso',()=>{
+        
+        cy.get('[data-testid="cadastrar-produtos"]').click();
+        cy.get('[data-testid="nome"]').type("Produto para teste automação");
+        cy.get('[data-testid="preco"]').type('1500');
+        cy.get('[data-testid="descricao"]').type("Produto de teste que não existe");
+        cy.get('[data-testid="quantity"]').type('200');
+        cy.get('[data-testid="imagem"]').click().selectFile('cypress/fixtures/Imagem/Imagem 1.png');
+    const arquivo = 'imagem/imagem 2.png'
+        cy.get('[data-testid="cadastarProdutos"]').click()
+
+       // login.login_page('teste@teste.com','123456');
+    })
 });
